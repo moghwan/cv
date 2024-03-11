@@ -4,7 +4,8 @@ export const RESUME_DATA = {
   name: "Marwane Chaoui",
   initials: "MC",
   location: "Temara, Morocco, GMT+1",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  locationLink: "https://www.google.com/maps/place/temara",
+  tel: "",
   about:
     "Backend Engineer PHP",
   summary:
