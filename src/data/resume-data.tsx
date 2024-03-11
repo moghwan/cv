@@ -54,6 +54,7 @@ export const RESUME_DATA = {
       title: "Software Engineer Backend Senior",
       start: "Oct 2022",
       end: "Present",
+      description: "",
     },
     {
       company: "DXC Technology Morocco",
