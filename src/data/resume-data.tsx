@@ -5,7 +5,6 @@ export const RESUME_DATA = {
   initials: "MC",
   location: "Temara, Morocco, GMT+1",
   locationLink: "https://www.google.com/maps/place/temara",
-  tel: "+212",
   about:
     "Backend Engineer PHP",
   summary:
@@ -14,6 +13,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://moghwan.io",
   contact: {
     email: "chaoui.mar1@gmail.com",
+    tel: "+212",
     social: [
       {
         name: "GitHub",
