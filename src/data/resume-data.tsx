@@ -75,6 +75,7 @@ export const RESUME_DATA = {
     },
     {
       company: "H2O Services",
+      link: "",
       badges: [],
       title: "PHP Developer",
       start: "Aug 2020",
