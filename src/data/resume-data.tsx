@@ -1,278 +1,157 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
+  name: "Marwane Chaoui",
+  initials: "MC",
+  location: "Temara, Morocco, GMT+1",
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
-  summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Backend Engineer PHP",
+  // summary:
+  //   "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+  avatarUrl: "https://media.licdn.com/dms/image/D4E03AQEV8svAEbOSTg/profile-displayphoto-shrink_400_400/0/1668801560823?e=1715817600&v=beta&t=qO_m6KdUWRZgX6FwKuc4CNAkLK4ghCFjDvhCOAKRVhc",
+  personalWebsiteUrl: "https://moghwan.io",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "chaoui.mar1@gmail.com",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/moghwan",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/moghwan/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/moghwan",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "High-Tech - High Technology School in Morocco",
+      degree: "Master's Degree (Bac+5) in Software engineering",
+      start: "2014",
+      end: "2017",
+    },
+    {
+      school: "OFPPT - Specialized Institute of Applied Technology",
+      degree: "Technician specialist in Software Development",
+      start: "2010",
+      end: "2012",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+      company: "Leyton",
+      link: "https://leyton.com/",
+      badges: ["Hybrid"],
+      title: "Software Engineer Backend Senior",
+      start: "Oct 2022",
+      end: "Present",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+      company: "DXC Technology Morocco",
+      badges: ["Hybrid"],
+      title: "Senior Technical Functional Consultant",
+      start: "Aug 2022",
+      end: "Sep 2022",
+      description: "Programming Insurance platforms with Graphtalk",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "L'NKBOOT",
+      link: "https://www.lnkboot.fr/",
+      badges: ["On-site"],
+      title: "Full-stack Developer",
+      start: "Nov 2020",
+      end: "Jul 2022",
+      description: "Prestashop modules integration and development with jQuery and Fabric.js. Bug fixing on Prestashop websites. Installation, Config and migration of Prestashop websites on OVH VPS with CentOS and WHM.",
+    },
+    {
+      company: "H2O Services",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+      title: "PHP Developer",
+      start: "Aug 2020",
+      end: "Oct 2020",
+      description: "Prestashop modules integration and development.",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "High-Tech Group",
+      link: "https://hightech.edu/",
       badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      title: "Webmaster, IS administrator and PHP Developer",
+      start: "Nov 2013",
+      end: "Jul 2020",
+      description: "Website management and Webmaster, Information systems administration, maintenance and development with CakePHP.",
+    },
+    {
+      company: "Majjane.ma",
+      link: "https://www.majjane.ma",
+      badges: [],
+      title: "PHP Web Developer/Integrator (intern)",
+      start: "Jul 2012",
+      end: "Jan 2013",
+      description: "Integration of psd models, Adaptation and Development of modules for Wordpress / Joomla. Development of web applications with CakePHP2 / jQuery.",
     },
   ],
   skills: [
     "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
+    "Nuxt.js",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "PHP",
+    "Laravel",
+    "Symfony",
+    "WordPress",
+    "Prestashop",
+    "Docker",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Web BouayadApp",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "VueJS",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "A simple app that shows daily quotes and prayers times — heavily inspired from the paper version of bouayad calendar.",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "web.bouayad.app",
+        href: "https://web.bouayad.app/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+      title: "Browser BouayadApp",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Json"
       ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+      description: "A wrapper chrome/firefox extension for web.bouayad.app.",
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "ext.bouayad.app",
+        href: "https://bouayad.app/",
       },
     },
     {
-      title: "Evercast",
+      title: "Early Riser Syntax Color Scheme - JetBrains",
       techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
       ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+      description: "a light theme heavely inspired from VSCode's \"Early Riser Syntax\" theme. ",
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "github.com/moghwan/idea-early-riser-theme",
+        href: "https://github.com/moghwan/idea-early-riser-theme",
       },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+      title: "Covid Stats in Morocco",
+      techStack: [
+        "VueJS"
+      ],
+      description: "Just another Unofficial Covid-19 Graph stats for Morocco",
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "corona.moghwan.io",
+        href: "https://corona.moghwan.io/",
       },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
