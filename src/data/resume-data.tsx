@@ -5,7 +5,7 @@ export const RESUME_DATA = {
   initials: "MC",
   location: "Temara, Morocco, GMT+1",
   locationLink: "https://www.google.com/maps/place/temara",
-  tel: "",
+  tel: "+212",
   about:
     "Backend Engineer PHP",
   summary:
