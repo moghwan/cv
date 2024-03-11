@@ -57,6 +57,7 @@ export const RESUME_DATA = {
     },
     {
       company: "DXC Technology Morocco",
+      link: "",
       badges: ["Hybrid"],
       title: "Senior Technical Functional Consultant",
       start: "Aug 2022",
