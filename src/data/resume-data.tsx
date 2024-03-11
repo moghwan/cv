@@ -7,8 +7,8 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
     "Backend Engineer PHP",
-  // summary:
-  //   "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+  summary:
+    "",
   avatarUrl: "https://media.licdn.com/dms/image/D4E03AQEV8svAEbOSTg/profile-displayphoto-shrink_400_400/0/1668801560823?e=1715817600&v=beta&t=qO_m6KdUWRZgX6FwKuc4CNAkLK4ghCFjDvhCOAKRVhc",
   personalWebsiteUrl: "https://moghwan.io",
   contact: {
